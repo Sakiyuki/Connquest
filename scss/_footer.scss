@@ -1,0 +1,48 @@
+.bottomlogo {
+    display: block;
+    margin:0 auto;
+
+}
+.secondNav {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+
+
+        li {
+            display: inline-block;
+
+        }
+        a {
+            color: white;
+            padding: 0 20px 0 0;
+        }
+}
+.social {
+    float: right;
+    padding-right: 60px;
+   
+    a {
+        color:white;
+    }
+    
+}
+
+
+
+
+
+
+
+ 
+ 
+ .clearfix {
+    zoom:1;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

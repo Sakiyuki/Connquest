@@ -1,33 +1,149 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Serif:700");
+@import url("http://fonts.googleapis.com/css?family=Lora:400,700");
 body {
-    color: #ffffff;
-    font-size: 1em;
-    line-height: 1.4;
-    background-color:#000000;
-
-}
-
-
-p {
-    color:#ffffff;
-}
-
-.logo {
-    display: none;
-}
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 1.4;
+  background-color: #000000; }
 
 li {
-    list-style-type: none;
-    padding:0;
-    margin:0;
-}
- .menuButton {
-    background-color: black;
-    font-size: 1em;
-    position: relative;
-    border-radius: 10px;
- }
- .sitebutton {
-    position: relative;
-    font-size: 1em;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
 
- }
+.logo {
+  display: none; }
+  @media (min-width: 768px) {
+    .logo {
+      margin: 0 auto; } }
+
+nav {
+  padding: 25px 0; }
+
+.button {
+  margin: -8px 0;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid white; }
+
+.menubutton {
+  margin-left: 10px; }
+
+.sitebutton {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  font-size: 1em; }
+
+a {
+  text-decoration: none; }
+
+.mainNav {
+  list-style: none;
+  padding: 15px 10px 0;
+  margin: 0;
+  display: none; }
+  .mainNav a {
+    display: block;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px; }
+
+.featuredBeers {
+  background: url("../images/background5.jpg") no-repeat center;
+  background-size: cover;
+  color: #000;
+  padding: 10px; }
+  .featuredBeers h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 2.2em; }
+
+@media (min-width: 768px) {
+  .beerContainer {
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+    padding-bottom: 100px; } }
+
+@media (min-width: 768px) {
+  .featuredBeer {
+    width: 24%;
+    float: left; } }
+.featuredBeer img {
+  display: block;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .featuredBeer img {
+      max-width: 90%;
+      margin: 0; } }
+.featuredBeer .desc {
+  font-size: 0.875em; }
+  @media (min-width: 768px) {
+    .featuredBeer .desc {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0; } }
+.featuredBeer .bottle {
+  display: none; }
+  @media (min-width: 768px) {
+    .featuredBeer .bottle {
+      position: absolute;
+      top: 0;
+      left: -22%; } }
+.featuredBeer .bottomlogo {
+  margin: 0 auto; }
+.featuredBeer h2 {
+  font-family: 'lora', sans-serif; }
+  @media (min-width: 768px) {
+    .featuredBeer h2 {
+      font-size: 0.875em; } }
+
+@media (min-width: 768px) {
+  .medusa .bottle {
+    display: block; } }
+@media (min-width: 768px) {
+  .medusa .desc {
+    display: block; } }
+
+.onTap {
+  display: none; }
+
+.findBeer {
+  display: none; }
+
+.bottomlogo {
+  display: block;
+  margin: 0 auto; }
+
+.secondNav {
+  list-style: none;
+  padding: 0;
+  text-align: center; }
+  .secondNav li {
+    display: inline-block; }
+  .secondNav a {
+    color: white;
+    padding: 0 20px 0 0; }
+
+.social {
+  float: right;
+  padding-right: 60px; }
+  .social a {
+    color: white; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+/*# sourceMappingURL=styles.css.map */

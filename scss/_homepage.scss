@@ -1,0 +1,93 @@
+.featuredBeers {
+    background: url("../images/background5.jpg") no-repeat center;
+    background-size: cover;
+    color: #000;
+    padding: 10px;
+    
+    h1 {
+        font-family: 'PT Serif', serif;
+        font-size: 2.2em;
+    }
+}
+.beerContainer {
+    @include breakpoint($medium) {
+        width: 80%;
+        margin-left: 20%;
+        position: relative;
+        padding-bottom: 100px;
+    }
+}
+.featuredBeer {
+
+    @include breakpoint($medium) {
+        width: 24%;
+        float: left;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+
+        @include breakpoint($medium) {
+            max-width: 90%;
+            margin: 0;
+        }
+    }
+    .desc {
+        font-size: 0.875em;
+
+        @include breakpoint($medium) {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .bottle {
+        display: none;
+
+        @include breakpoint($medium) {
+            position: absolute;
+            top: 0;
+            left: -22%;
+        }
+    }
+    
+    .bottomlogo {
+        margin:0 auto;
+
+    }
+    h2 {
+        font-family: 'lora', sans-serif;
+
+        @include breakpoint($medium) {
+            font-size: 0.875em;
+        }
+    }
+
+}
+.medusa {
+
+    .bottle {
+        @include breakpoint($medium) {
+            display: block;
+        }
+    }
+    .desc {
+        @include breakpoint($medium) {
+            display: block;
+        }
+    }
+}
+
+
+.onTap {
+  
+    display: none; 
+     
+             } 
+.findBeer {
+    
+    display: none;
+        
+}
