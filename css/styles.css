@@ -12,7 +12,8 @@ li {
   margin: 0; }
 
 .logo {
-  display: none; }
+  display: block;
+  margin: 0 auto; }
   @media (min-width: 768px) {
     .logo {
       margin: 0 auto; } }
@@ -52,6 +53,10 @@ a {
     padding: 10px 15px;
     border: 1px solid white;
     border-radius: 5px; }
+  @media (min-width: 768px) {
+    .mainNav {
+      display: block;
+      text-decoration: none; } }
 
 .featuredBeers {
   background: url("../images/background5.jpg") no-repeat center;

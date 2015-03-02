@@ -1,7 +1,11 @@
 
 .logo {
-   
-    display: none;
+    display: block;
+    margin:0 auto;
+      // position: relative;
+      // margin-left: 80px;
+      // margin-top: 10px;
+      // margin-right: 80px;
    
     @include breakpoint($medium) {
      margin: 0 auto;
@@ -39,11 +43,17 @@ nav {
     margin: 0;
     display: none;
 
+
     a {
         display: block;
         color: #fff;
         padding: 10px 15px;
         border: 1px solid white;
         border-radius: 5px;
+    }
+    @include breakpoint($medium) {
+        display: block;
+        text-decoration: none;
+        
     }
 }
